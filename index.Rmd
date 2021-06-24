@@ -23,7 +23,7 @@ library(rmarkdown)
 CDI_data <- read_csv("CDI.csv")
 
 ```
-```{r, echo = FALSE}
+```{r, echo = FALSE, layout = "1-page"}
 clean_d_data <- CDI_data %>% 
   filter(Question == "Prevalence of diagnosed diabetes among adults aged >= 18 years", Stratification1 == "Overall", DataValueType == "Age-adjusted Prevalence", YearStart %in% c(2013:2018)) %>% 
   drop_na(DataValueAlt) %>% 
@@ -42,7 +42,8 @@ map_data(map = "state") %>%
        y = "Latitude") +
   theme_classic()
 ```
-```{r}
+
+```{r, layout = "1-page"}
 clean_dd_data <- CDI_data %>% 
   filter(Question == "Prevalence of depressive disorders among adults aged >= 18 years with diagnosed diabetes", 
          Stratification1 == "Overall", 
@@ -62,10 +63,11 @@ map_data(map = "state") %>%
        subtitle = "Lower prevalence of depressive disorders among adults with diabetes\nis most consistently seen in California",
        fill = "Age-adjusted\nPrevalence (%)",
        x = "Longitude",
-       y = "Latitude")
+       y = "Latitude") + 
+  theme_classic()
 ```
 
-```{r}
+```{r, layout = "1-page"}
 clean_diabetes_data <- CDI_data %>% 
   mutate(diabetes = ifelse(str_detect(Question, "diabetes"), TRUE, FALSE)) %>% 
   filter(diabetes == TRUE,
@@ -87,7 +89,8 @@ map_data(map = "state") %>%
        subtitle = "Oklahoma consistently has the highest rates of mortality due to diabetes",
        fill = "Age-adjusted\nRate (%)",
        x = "Longitude",
-       y = "Latitude")
+       y = "Latitude") + 
+  theme_classic()
   
 ```
 
