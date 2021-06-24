@@ -25,7 +25,7 @@ CDI_data <- read_csv("CDI.csv")
 ```
 ```{r, echo = FALSE}
 clean_d_data <- CDI_data %>% 
-  filter(Question == "Prevalence of diagnosed diabetes among adults aged >= 18 years", Stratification1 == "Overall", DataValueType == "Age-adjusted Prevalence") %>% 
+  filter(Question == "Prevalence of diagnosed diabetes among adults aged >= 18 years", Stratification1 == "Overall", DataValueType == "Age-adjusted Prevalence", YearStart %in% c(2013:2018)) %>% 
   drop_na(DataValueAlt) %>% 
   mutate(region = tolower(LocationDesc)) %>% 
   select(YearStart, region, Question, DataValueAlt, DataValueUnit)
@@ -39,13 +39,15 @@ map_data(map = "state") %>%
        subtitle = "Higher prevalence of diabetes is seen in the southern region of the US",
        fill = "Age-adjusted\nPrevalence (%)",
        x = "Longitude",
-       y = "Latitude")
+       y = "Latitude") +
+  theme_classic()
 ```
 ```{r}
 clean_dd_data <- CDI_data %>% 
   filter(Question == "Prevalence of depressive disorders among adults aged >= 18 years with diagnosed diabetes", 
          Stratification1 == "Overall", 
-         DataValueType == "Age-adjusted Prevalence") %>% 
+         DataValueType == "Age-adjusted Prevalence",
+         YearStart %in% c(2013:2018)) %>% 
   drop_na(DataValueAlt) %>% 
   mutate(region = tolower(LocationDesc)) %>% 
   select(YearStart, region, Question, DataValueAlt, DataValueUnit)
@@ -69,7 +71,8 @@ clean_diabetes_data <- CDI_data %>%
   filter(diabetes == TRUE,
          DataValueType == "Age-adjusted Rate",
          Stratification1 == "Overall",
-         Question == "Mortality due to diabetes reported as any listed cause of death") %>% 
+         Question == "Mortality due to diabetes reported as any listed cause of death",
+         YearStart %in% c(2013:2018)) %>% 
   drop_na(DataValueAlt) %>% 
   mutate(region = tolower(LocationDesc)) %>% 
   select(YearStart, region, Question, DataValueAlt, DataValueUnit) %>% 
