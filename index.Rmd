@@ -1,6 +1,6 @@
 ---
 title: "Diabetes Prevalence by State"
-description: 
+description: A comparison on the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates
 site: distill::distill_website
 ---
 

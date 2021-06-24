@@ -3,17 +3,18 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "Some additional details about the website",
+      "description": "Some additional details about the this project",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-24T12:20:56-05:00"
+      "contents": "\r\nAbout Me\r\nI’m Mahima Malhotra, an incoming freshman at Purdue University. I’m planning on double majoring in Computer Science and Data Science.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-24T13:34:36-05:00"
     },
     {
       "path": "index.html",
       "title": "Diabetes Prevalence by State",
+      "description": "A comparison on the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-24T12:21:02-05:00"
+      "last_modified": "2021-06-24T13:34:45-05:00"
     }
   ],
   "collections": []
