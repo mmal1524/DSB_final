@@ -3,10 +3,10 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "Some additional details about the this project",
+      "description": "Some additional details about this project\n",
       "author": [],
-      "contents": "\r\nAbout Me\r\nI’m Mahima Malhotra, an incoming freshman at Purdue University. I’m planning on double majoring in Computer Science and Data Science.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-24T13:34:36-05:00"
+      "contents": "\r\nAbout Me\r\nI’m Mahima Malhotra, an incoming freshman at Purdue University. I’m planning on double majoring in Computer Science and Data Science.\r\nSources\r\nThe first source was Primer.Data (Kane 2020)\r\nThe source for the data was the U.S. Chronic Disease Indicators (CDI) (CDC 2021) from the CDC, which collected data from numerous organizations.\r\n\r\n\r\n\r\nCDC. 2021. “U.s. Chronic Disease Indicators (CDI).”\r\n\r\n\r\nKane, David. 2020. Primer.data.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-24T14:02:30-05:00"
     },
     {
       "path": "index.html",

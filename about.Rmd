@@ -2,6 +2,8 @@
 title: "About this site"
 description: |
   Some additional details about this project
+bibliography: bibliography.bib
+
 ---
 
 ```{r setup, include=FALSE}
@@ -10,3 +12,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## About Me
 I'm Mahima Malhotra, an incoming freshman at Purdue University. I'm planning on double majoring in Computer Science and Data Science. 
+
+## Sources
+The first source was Primer.Data [@primerdata]
+
+The source for the data was the U.S. Chronic Disease Indicators (CDI) [@CDI] from the CDC, which collected data from numerous organizations.
+
+
+[Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)
