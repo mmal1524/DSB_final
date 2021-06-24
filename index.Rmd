@@ -43,6 +43,8 @@ map_data(map = "state") %>%
   theme_classic()
 ```
 
+As can be seen from the above plot, the southern region of the United States appears to continuously have higher rates of diabetes than other regions. To contrast, the northwestern region has continously lower rates of diabetes. However, these trends seen above do not continue to the plot below.
+
 ```{r, layout = "1-page"}
 clean_dd_data <- CDI_data %>% 
   filter(Question == "Prevalence of depressive disorders among adults aged >= 18 years with diagnosed diabetes", 
@@ -64,8 +66,9 @@ map_data(map = "state") %>%
        fill = "Age-adjusted\nPrevalence (%)",
        x = "Longitude",
        y = "Latitude") + 
-  theme_classic()
+  theme_classic() 
 ```
+While rates of diabetes appear to be highest in the southeastern region of the United States, rates of depressive disorders among adults with diabetes has more variation, with the most constant trend being lower rates in California and in some states in the northeastern region.
 
 ```{r, layout = "1-page"}
 clean_diabetes_data <- CDI_data %>% 
@@ -93,4 +96,4 @@ map_data(map = "state") %>%
   theme_classic()
   
 ```
-
+As can be seen in the above plot, most states have a lower mortality rate due to diabetes, which also doesn't follow the trends seen in either of the above plots. However, it is interesting to note the higher rate in Oklahoma as compared to all other states since there isn't a significantly higher rate of diabetes in this state. 

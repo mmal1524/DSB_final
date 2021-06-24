@@ -13,6 +13,13 @@ knitr::opts_chunk$set(echo = FALSE)
 ## About Me
 I'm Mahima Malhotra, an incoming freshman at Purdue University. I'm planning on double majoring in Computer Science and Data Science. 
 
+## About the Project
+This project explores trends over rates of diabetes over time in the United States and compares these to mortality rates due to diabetes and the prevalence of depressive disorders among adults with diabetes.
+
+## Goals
+*   Determine if there is a trend of states which have a higher prevalence of diabetes among adults
+*   Analyze trends between locations with higher rates of diabetes and mortality rates due to diabetes as well as between the prevalence of depressive disorders
+
 ## Sources
 The first source was Primer.Data [@primerdata]
 

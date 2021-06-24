@@ -5,16 +5,16 @@
       "title": "About this site",
       "description": "Some additional details about this project\n",
       "author": [],
-      "contents": "\r\nAbout Me\r\nI’m Mahima Malhotra, an incoming freshman at Purdue University. I’m planning on double majoring in Computer Science and Data Science.\r\nSources\r\nThe first source was Primer.Data (Kane 2020)\r\nThe source for the data was the U.S. Chronic Disease Indicators (CDI) (CDC 2021) from the CDC, which collected data from numerous organizations.\r\nKane’s Free High School Data Science Bootcamp\r\n\r\n\r\n\r\nCDC. 2021. “U.s. Chronic Disease Indicators (CDI).”\r\n\r\n\r\nKane, David. 2020. Primer.data.\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-24T17:16:49-05:00"
+      "contents": "\r\nAbout Me\r\nI’m Mahima Malhotra, an incoming freshman at Purdue University. I’m planning on double majoring in Computer Science and Data Science.\r\nAbout the Project\r\nThis project explores trends over rates of diabetes over time in the United States and compares these to mortality rates due to diabetes and the prevalence of depressive disorders among adults with diabetes.\r\nGoals\r\nDetermine if there is a trend of states which have a higher prevalence of diabetes among adults\r\nAnalyze trends between locations with higher rates of diabetes and mortality rates due to diabetes as well as between the prevalence of depressive disorders\r\nSources\r\nThe first source was Primer.Data (Kane 2020)\r\nThe source for the data was the U.S. Chronic Disease Indicators (CDI) (CDC 2021) from the CDC, which collected data from numerous organizations.\r\nKane’s Free High School Data Science Bootcamp\r\n\r\n\r\n\r\nCDC. 2021. “U.s. Chronic Disease Indicators (CDI).”\r\n\r\n\r\nKane, David. 2020. Primer.data.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-24T18:53:39-05:00"
     },
     {
       "path": "index.html",
       "title": "Diabetes Prevalence by State",
       "description": "A comparison on the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-24T17:17:06-05:00"
+      "contents": "\r\n\r\n\r\n\r\nAs can be seen from the above plot, the southern region of the United States appears to continuously have higher rates of diabetes than other regions. To contrast, the northwestern region has continously lower rates of diabetes. However, these trends seen above do not continue to the plot below.\r\n\r\n\r\n\r\nWhile rates of diabetes appear to be highest in the southeastern region of the United States, rates of depressive disorders among adults with diabetes has more variation, with the most constant trend being lower rates in California and in some states in the northeastern region.\r\n\r\n\r\n\r\nAs can be seen in the above plot, most states have a lower mortality rate due to diabetes, which also doesn’t follow the trends seen in either of the above plots. However, it is interesting to note the higher rate in Oklahoma as compared to all other states since there isn’t a significantly higher rate of diabetes in this state.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-24T18:53:49-05:00"
     }
   ],
   "collections": []
